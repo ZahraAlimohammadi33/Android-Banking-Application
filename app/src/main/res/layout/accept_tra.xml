@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="422dp"
+        android:layout_height="678dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textbox"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="479dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            android:text="Transfer"
+            android:textColor="#EAF1EE"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trancection"
+        android:layout_width="197dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="270dp"
+        android:text=" "
+        android:textColor="#C7E3E0"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+        <Button
+            android:id="@+id/reject"
+            style="@style/MyBottomAppBar"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="400dp"
+            android:text="No"
+            android:textColor="@color/greenK" />
+
+        <Button
+            android:id="@+id/accept"
+            style="@style/MyBottomAppBar"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="400dp"
+            android:text="Yes"
+            android:textColor="@color/greenK" />
+
+
+
+
+</RelativeLayout>

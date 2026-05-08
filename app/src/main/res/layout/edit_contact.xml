@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="422dp"
+    android:layout_height="678dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/textbox"
+    android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/closedit"
+            android:layout_width="49dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            android:background="@android:drawable/ic_notification_clear_all" />
+
+
+        <EditText
+            android:id="@+id/newFC"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edittext"
+            android:hint="  new firstName"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/newLC"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edittext"
+            android:hint="  new LastNAme"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/newPC"
+            android:layout_width="231dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/edittext"
+            android:hint="  new phoneNumber"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/setedit"
+            style="@style/MyBottomAppBar"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="12dp"
+            android:text="Edit"
+            android:textColor="@color/greenK" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

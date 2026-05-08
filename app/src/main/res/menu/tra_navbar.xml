@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/recent_card"
+        android:title="recent card"
+        android:icon="@drawable/recent_card_icon"/>
+    <item
+
+        android:id="@+id/tra_contact"
+        android:title="contacts"
+        android:icon="@drawable/tra_cantact_icon"/>
+
+</menu>

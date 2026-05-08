@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/greenK">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:text="  Sent Money"
+        android:textColor="#E1D6D6"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/tra_buttonAppBar"
+        android:layout_width="389dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/bbb"
+        style="@style/bbb"
+        android:gravity="bottom"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="50dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navi"
+            android:layout_width="370dp"
+            android:layout_height="60dp"
+            android:background="@color/bbb"
+            app:menu="@menu/tra_navbar" />
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <Button
+        style="@style/MyBottomAppBar"
+        android:layout_width="359dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="670dp"
+        android:text="Continue"
+        android:textColor="#367578"
+        android:textSize="30sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

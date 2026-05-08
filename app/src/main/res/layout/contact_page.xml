@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#538A88">
+
+
+    <EditText
+        android:id="@+id/firstContactName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/bbb"
+        android:hint=" First name" />
+
+    <EditText
+        android:id="@+id/lastContactName"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/bbb"
+        android:hint=" Last name" />
+
+    <EditText
+        android:id="@+id/contactPhone"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="140dp"
+        android:background="@color/bbb"
+        android:hint=" PhoneNumber" />
+
+    <Button
+        style="@style/traBottomAppBar"
+        android:layout_width="78dp"
+        android:id="@+id/add"
+        android:layout_height="63dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="200dp"
+        android:text="ADD"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/delete"
+        style="@style/traBottomAppBar"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="200dp"
+        android:text="DELETE"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contactRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270dp"
+        android:scrollbars="vertical" />
+<!--        android:layout_below="@+id/se"/>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contactCard"
+        android:layout_width="210dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/greenM"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:id="@+id/contactImage"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/outline_account_circle_24" />
+
+
+        <TextView
+            android:id="@+id/contacNeme"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingStart="20dp"
+            android:text="name"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/contactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:paddingStart="40dp"
+            android:text="phoneNumber"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

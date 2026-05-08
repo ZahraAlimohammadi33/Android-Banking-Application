@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenK">
+
+    <TextView
+        android:layout_width="299dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:text="  Sent Money"
+        android:textColor="#E1D6D6"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:text="Enter amount"
+        android:textColor="#D2E8E6"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/amount_tra"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/edittext"
+        android:hint="  $"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="230dp"
+        android:text="Transfer to:"
+        android:textColor="#D2E8E6"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/accountNumber"
+        android:layout_width="236dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/edittext"
+        android:hint=" "
+        android:inputType="number" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/baseline_contact_phone_24"
+        android:id="@+id/contacttransfer"/>
+
+    <Spinner
+        android:id="@+id/tra_spinner"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="120dp"
+        android:background="@color/greenM"/>
+
+    <Button
+        style="@style/MyBottomAppBar"
+        android:layout_width="380dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="650dp"
+        android:textColor="#367578"
+        android:text="Continue"
+        android:textSize="30sp"
+        android:id="@+id/transferboutton"/>
+
+
+
+
+
+</RelativeLayout>

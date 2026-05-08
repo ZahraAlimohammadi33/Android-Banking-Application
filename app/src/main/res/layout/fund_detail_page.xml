@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#538A88">
+    <Button
+        android:id="@+id/withdraw"
+        style="@style/traBottomAppBar"
+        android:textColor="@color/white"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="290dp"
+        android:text="withdraw"/>
+
+    <Button
+        android:id="@+id/deposit"
+        style="@style/traBottomAppBar"
+        android:textColor="@color/white"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="290dp"
+        android:text="deposit"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/fund_tra_list"
+        android:layout_height="400dp"
+        android:layout_marginTop="400dp"
+        android:scrollbars="vertical"/>
+
+</RelativeLayout>

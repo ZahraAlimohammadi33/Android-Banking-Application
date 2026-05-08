@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#a40cb3</color>
+    <color name="violet">#3D4A71</color>
+    <color name="greenM">#FFA2C0BE</color>
+    <color name="greenB">#FFCCE2E0</color>
+    <color name="greenK">#FF367578</color>
+    <color name="greenN">#FFB4CECB</color>
+    <color name="greenX">#FF367578</color>
+    <color name="bbb">#FF8DBDBA</color>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar"/>
+    <style name="MyBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="backgroundTint">@color/greenB</item>
+    </style>
+    <style name="bbb" parent="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="backgroundTint">@color/bbb</item>
+    </style>
+    <style name="traBottomAppBar" parent="Widget.MaterialComponents.BottomAppBar.Colored">
+        <item name="backgroundTint">@color/greenX</item>
+    </style>
+</resources>
